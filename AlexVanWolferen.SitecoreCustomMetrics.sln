@@ -5,6 +5,12 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{CAEFCB2D-E169-4207-9F34-2ADC9BB1F3E6}"
 	ProjectSection(SolutionItems) = preProject
+		kusto.png = kusto.png
+		metrics-cachestatistics-1.png = metrics-cachestatistics-1.png
+		metrics-cachestatistics-cachesize-2.png = metrics-cachestatistics-cachesize-2.png
+		metrics-renderingstatistics-1.png = metrics-renderingstatistics-1.png
+		metrics-renderingstatistics-customproperties.png = metrics-renderingstatistics-customproperties.png
+		metrics-renderingstatistics-timesrendered-2.png = metrics-renderingstatistics-timesrendered-2.png
 		nuget.config = nuget.config
 		README.md = README.md
 	EndProjectSection
