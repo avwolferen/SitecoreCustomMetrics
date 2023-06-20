@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{CAEFCB2D-E169-4207-9F34-2ADC9BB1F3E6}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexVanWolferen.SitecoreCustomMetrics", "AlexVanWolferen.SitecoreCustomMetrics\AlexVanWolferen.SitecoreCustomMetrics.csproj", "{F207C3FE-39C9-4B05-B4ED-8FA012AF4AFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F207C3FE-39C9-4B05-B4ED-8FA012AF4AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F207C3FE-39C9-4B05-B4ED-8FA012AF4AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F207C3FE-39C9-4B05-B4ED-8FA012AF4AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F207C3FE-39C9-4B05-B4ED-8FA012AF4AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B1F179A-41EB-4246-AC41-0FF7D32528FA}
+	EndGlobalSection
+EndGlobal
