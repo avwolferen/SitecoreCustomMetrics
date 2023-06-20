@@ -29,10 +29,12 @@ namespace AlexVanWolferen.SitecoreCustomMetrics
       foreach (var cacheInfo in allCaches)
       {
         var cacheSize = new MetricTelemetry($"{cacheInfo.Name} - size", cacheInfo.Size);
+        cacheSize.MetricNamespace = "Sitecore Caches";
         cacheSize.Max = cacheInfo.MaxSize;
         telemetryClient.TrackMetric(cacheSize);
 
         var cacheItems = new MetricTelemetry($"{cacheInfo.Name} - records", cacheInfo.Count);
+        cacheItems.MetricNamespace = "Sitecore Caches";
         telemetryClient.TrackMetric(cacheItems);
       }
     }
